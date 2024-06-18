@@ -1,7 +1,4 @@
-/*
-RESET
-*/
-
+/*RESET*/
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +9,31 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*
-GENERAL
-*/
+/*GENERAL*/
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+#header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*DEBUG*/
+.debug header {
+    background-color: whitesmoke;
+}
+
+.debug #header-top {
+    background-color: whitesmoke;
+}
+
+.debug #header-top > * {
+    background-color: whitesmoke;
+}
+
+.debug #header-bottom {
+    background-color: whitesmoke;
+}
