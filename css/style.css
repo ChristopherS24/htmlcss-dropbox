@@ -15,10 +15,51 @@ html {
     margin: 0 auto;
 }
 
+.info-container {
+    display: flex;
+}
+
+.info-container .small {
+    width: 33%;
+}
+
+.info-container .big {
+    width: 33%;
+}
+
 /*HEADER*/
 #header-top {
     display: flex;
     justify-content: space-between;
+}
+
+#header-top ul {
+    list-style: none;
+}
+
+#header-top ul li {
+    display: inline-block;
+}
+
+#header-top ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 9px 13px;
+}
+
+#header-bottom {
+    height: 450px;
+    padding: 50px 0;
+}
+
+#header-bottom > div {
+    
+}
+
+#header-bottom .centrale {
+    position: relative;
+    top: 100px;
+
 }
 
 /*DEBUG*/
@@ -35,5 +76,10 @@ html {
 }
 
 .debug #header-bottom {
-    background-color: whitesmoke;
+    background-color: #B4D0E7 ;
+}
+
+.debug #header-bottom .centrale {
+    background-color: #B4D0E7;
+    min-height: 300px;
 }
