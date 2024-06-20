@@ -39,6 +39,10 @@ html {
     margin-bottom: 50px;
 }
 
+.nomargin {
+    margin: 0;
+}
+
 /*HEADER*/
 #header-top {
     display: flex;
@@ -128,6 +132,26 @@ main > section {
     padding: 40px 0;
 }
 
+.squares-container {
+    display: flex;
+    margin-top: 70px;
+}
+
+.squares-container > .square {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.squares-container > .square.composed {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.squares-container > .square > .smallsquare {
+    width: 50%;
+    height: 50%;
+}
+
 /*
 FOOTER
 */
@@ -204,4 +228,23 @@ footer {
     background-color: aqua ;
 }
 
+.debug .square {
+    min-height: 350px;
+    background-color: greenyellow;
+}
 
+.debug .smallsquare:nth-child(1) {
+    background-color: fuchsia ;
+}
+
+.debug .smallsquare:nth-child(2) {
+    background-color: fuchsia ;
+}
+
+.debug .smallsquare:nth-child(3) {
+    background-color: fuchsia ;
+}
+
+.debug .smallsquare:nth-child(4) {
+    background-color: fuchsia ;
+}
