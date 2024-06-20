@@ -73,6 +73,11 @@ html {
     top: 150px;
 }
 
+.imguno {
+    width: 60%;
+    height: 40%;
+    
+}
 /*MAIN*/
 main {
     margin-top: 150px;
@@ -230,16 +235,16 @@ footer {
 }
 
 .debug .small {
-    background-color: darkred;
+    background-color: #B4D0E7;
 }
 
 .debug .big {
-    background-color: gold;
+    background-color: #B4D0E7;
     width: 100%;
 }
 
 .debug .background {
-    background-color: aqua ;
+    background-color: #B4D0E7 ;
 }
 
 .debug .square {
