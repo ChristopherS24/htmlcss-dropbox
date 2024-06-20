@@ -113,6 +113,58 @@ main h3 {
 main > section {
     margin-bottom: 45px;
 }
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.features > * {
+    width: 35%;
+}
+
+#business {
+    padding: 40px 0;
+}
+
+/*
+FOOTER
+*/
+footer {
+    background-color: black;
+    color: white;
+}
+
+#footer-top {
+    padding: 50px 0;
+}
+
+#footer-bottom {
+    padding: 30px 0;
+}
+
+.footercolonne {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footercolonne > * {
+    width: 20%;
+}
+
+.footercolonne > * ul {
+    list-style: none;
+}
+
+.footercolonne > * ul li a {
+    display: inline-block;
+    padding: 7px 0;
+    color: white;
+    text-decoration: none;
+}
+
+
 /*DEBUG*/
 .debug header {
     background-color: whitesmoke;
@@ -147,3 +199,9 @@ main > section {
     background-color: gold;
     width: 100%;
 }
+
+.debug .background {
+    background-color: aqua ;
+}
+
+
